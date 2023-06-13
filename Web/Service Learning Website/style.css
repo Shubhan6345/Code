@@ -1,0 +1,119 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://img.freepik.com/premium-vector/cyber-security-concept-with-hud-element-blue-tone-background_99087-130.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.logo {
+	float: left;
+}
+.logo img {
+    width: 20%;
+	padding: 15px 0;
+}
+
+.right a:hover{
+    color: whitesmoke;
+}
+
+.title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.members{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.video{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.about{
+    background: linear-gradient(rgba(0, 0, 0, 0.769), rgba(0, 0, 0, 0.422)), url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+}
+
